@@ -5,6 +5,8 @@
  */
 package paquete3;
 
+import paquete5.Dato;
+
 /**
  *
  * @author reroes
@@ -12,6 +14,7 @@ package paquete3;
 public class Valor {
     
     public static int obtenerHabitantes(){
+        
         return Dato.obtenerNumeroHombres() + Dato.obtenerNumeroMujeres();
     }
 }
